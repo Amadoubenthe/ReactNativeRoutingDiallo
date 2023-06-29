@@ -33,7 +33,7 @@ function DetailsScreen({navigation}) {
 
 const Stack = createNativeStackNavigator();
 
-function StackNavigator() {
+function StackNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
@@ -44,4 +44,4 @@ function StackNavigator() {
   );
 }
 
-export default StackNavigator;
+export default StackNavigation;
